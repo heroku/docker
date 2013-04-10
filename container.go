@@ -62,7 +62,7 @@ type Config struct {
 	Env          []string
 	Cmd          []string
 	Image        string // Name of the image as it was passed by the operator (eg. could be symbolic)
-	Volumes      map[string]string
+	Volumes      map[string]struct{}
 }
 
 func ParseRun(args []string, stdout io.Writer) (*Config, error) {
