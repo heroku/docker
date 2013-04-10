@@ -45,6 +45,8 @@ type Container struct {
 	ptyStderrMaster io.Closer
 
 	runtime *Runtime
+
+	Volumes map[string]string
 }
 
 type Config struct {
@@ -380,6 +382,7 @@ func (container *Container) Start() error {
 		return err
 	}
 
+	container.Volumes = make(map[string]string)
 	// Create the requested volumes volumes
 	for volPath := range container.Config.Volumes {
 		if c, err := container.runtime.volumes.Create(nil, container, ""); err != nil {
@@ -388,11 +391,7 @@ func (container *Container) Start() error {
 			if err := os.MkdirAll(path.Join(container.RootfsPath(), volPath), 0755); err != nil {
 				return nil
 			}
-			root, err := c.root()
-			if err != nil {
-				return err
-			}
-			container.Config.Volumes[volPath] = root
+			container.Volumes[volPath] = c.Id
 		}
 	}
 
@@ -748,6 +747,22 @@ func (container *Container) lxcConfigPath() string {
 // This method must be exported to be used from the lxc template
 func (container *Container) RootfsPath() string {
 	return path.Join(container.root, "rootfs")
+}
+
+func (container *Container) GetVolumes() (map[string]string, error) {
+	ret := make(map[string]string)
+	for volPath, id := range container.Volumes {
+		volume, err := container.runtime.volumes.Get(id)
+		if err != nil {
+			return nil, err
+		}
+		root, err := volume.root()
+		if err != nil {
+			return nil, err
+		}
+		ret[volPath] = path.Join(root, "layer")
+	}
+	return ret, nil
 }
 
 func (container *Container) rwPath() string {
