@@ -5,7 +5,7 @@ import (
 
 	"github.com/Microsoft/hcsshim"
 	"github.com/docker/docker/pkg/system"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 type policyLists struct {

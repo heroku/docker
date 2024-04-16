@@ -7,7 +7,7 @@ import (
 	"syscall"
 
 	"github.com/Microsoft/hcsshim/internal/guid"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 /* To pass into syscall, we need a struct matching the following:

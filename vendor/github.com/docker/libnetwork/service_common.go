@@ -6,7 +6,7 @@ import (
 	"net"
 
 	"github.com/docker/libnetwork/internal/setmatrix"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 const maxSetStringLen = 350

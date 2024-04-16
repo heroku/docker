@@ -12,7 +12,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 var (

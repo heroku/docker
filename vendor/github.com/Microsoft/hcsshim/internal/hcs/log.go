@@ -1,6 +1,6 @@
 package hcs
 
-import "github.com/sirupsen/logrus"
+import "github.com/Sirupsen/logrus"
 
 func logOperationBegin(ctx logrus.Fields, msg string) {
 	logrus.WithFields(ctx).Debug(msg)

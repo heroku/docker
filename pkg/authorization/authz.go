@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	"github.com/docker/docker/pkg/ioutils"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 const maxBodySize = 1048576 // 1MB

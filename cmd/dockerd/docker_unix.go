@@ -5,7 +5,7 @@ package main
 import (
 	"io"
 
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 func runDaemon(opts *daemonOptions) error {

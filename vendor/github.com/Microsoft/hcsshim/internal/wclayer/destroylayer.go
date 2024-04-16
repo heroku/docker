@@ -2,7 +2,7 @@ package wclayer
 
 import (
 	"github.com/Microsoft/hcsshim/internal/hcserror"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // DestroyLayer will remove the on-disk files representing the layer with the given

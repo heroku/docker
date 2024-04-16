@@ -18,7 +18,7 @@ import (
 	"github.com/docker/docker/runconfig"
 	"github.com/opencontainers/selinux/go-selinux/label"
 	"github.com/pkg/errors"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 type createOpts struct {

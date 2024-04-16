@@ -14,7 +14,7 @@ import (
 	"github.com/docker/docker/runconfig"
 	"github.com/docker/libnetwork"
 	"github.com/pkg/errors"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 var (

@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/Microsoft/hcsshim"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // Process is the structure pertaining to a process running in a utility VM.

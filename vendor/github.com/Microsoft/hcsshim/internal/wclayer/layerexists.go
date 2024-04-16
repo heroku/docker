@@ -2,7 +2,7 @@ package wclayer
 
 import (
 	"github.com/Microsoft/hcsshim/internal/hcserror"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // LayerExists will return true if a layer with the given id exists and is known

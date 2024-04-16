@@ -17,7 +17,7 @@ import (
 	"github.com/docker/docker/pkg/urlutil"
 	"github.com/moby/buildkit/frontend/dockerfile/parser"
 	"github.com/pkg/errors"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // ClientSessionRemote is identifier for client-session context transport

@@ -30,7 +30,7 @@ import (
 	"github.com/docker/libnetwork/options"
 	networktypes "github.com/docker/libnetwork/types"
 	"github.com/pkg/errors"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // PredefinedNetworkError is returned when user tries to create predefined network that already exists.

@@ -18,7 +18,7 @@ import (
 	"github.com/docker/docker/volume/drivers"
 	volumemounts "github.com/docker/docker/volume/mounts"
 	"github.com/docker/docker/volume/service/opts"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 	bolt "go.etcd.io/bbolt"
 )
 

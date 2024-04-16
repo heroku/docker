@@ -5,7 +5,7 @@ import (
 	"reflect"
 
 	"github.com/Microsoft/go-winio/pkg/etw"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // Hook is a Logrus hook which logs received events to ETW.

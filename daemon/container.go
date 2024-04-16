@@ -25,7 +25,7 @@ import (
 	"github.com/docker/go-connections/nat"
 	"github.com/opencontainers/selinux/go-selinux/label"
 	"github.com/pkg/errors"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // GetContainer looks for a container using the provided information, which could be

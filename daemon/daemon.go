@@ -42,7 +42,7 @@ import (
 	"github.com/docker/docker/errdefs"
 	"github.com/moby/buildkit/util/resolver"
 	"github.com/moby/buildkit/util/tracing"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 
 	// register graph drivers
 	_ "github.com/docker/docker/daemon/graphdriver/register"

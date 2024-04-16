@@ -15,7 +15,7 @@ import (
 	"github.com/docker/docker/layer"
 	"github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 var imagesAcceptedFilters = map[string]bool{

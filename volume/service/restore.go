@@ -5,7 +5,7 @@ import (
 	"sync"
 
 	"github.com/docker/docker/volume"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 	bolt "go.etcd.io/bbolt"
 )
 

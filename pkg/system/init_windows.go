@@ -3,7 +3,7 @@ package system // import "github.com/docker/docker/pkg/system"
 import (
 	"os"
 
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 var (

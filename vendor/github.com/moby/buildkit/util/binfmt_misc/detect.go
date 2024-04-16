@@ -5,7 +5,7 @@ import (
 	"sync"
 
 	"github.com/containerd/containerd/platforms"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 var once sync.Once

@@ -14,7 +14,7 @@ import (
 	"github.com/Microsoft/opengcs/service/gcsutils/remotefs"
 	"github.com/docker/docker/pkg/archive"
 	"github.com/docker/docker/pkg/containerfs"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 type lcowfs struct {

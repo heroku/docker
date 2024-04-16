@@ -3,7 +3,7 @@ package wclayer
 import (
 	"github.com/Microsoft/hcsshim/internal/guid"
 	"github.com/Microsoft/hcsshim/internal/hcserror"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // NameToGuid converts the given string into a GUID using the algorithm in the

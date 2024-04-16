@@ -11,7 +11,7 @@ import (
 	"github.com/Microsoft/opengcs/service/gcsutils/remotefs"
 
 	"github.com/containerd/continuity/driver"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 var _ driver.Driver = &lcowfs{}

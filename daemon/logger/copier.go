@@ -8,7 +8,7 @@ import (
 
 	types "github.com/docker/docker/api/types/backend"
 	"github.com/docker/docker/pkg/stringid"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 const (

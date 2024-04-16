@@ -9,7 +9,7 @@ import (
 
 	"github.com/moby/buildkit/identity"
 	digest "github.com/opencontainers/go-digest"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // NewInMemoryCacheManager creates a new in-memory cache manager

@@ -14,7 +14,7 @@ import (
 	"github.com/docker/docker/dockerversion"
 	"github.com/docker/docker/errdefs"
 	"github.com/gorilla/mux"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // versionMatcher defines a variable matcher to be parsed by the router

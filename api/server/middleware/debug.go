@@ -10,7 +10,7 @@ import (
 
 	"github.com/docker/docker/api/server/httputils"
 	"github.com/docker/docker/pkg/ioutils"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // DebugRequestMiddleware dumps the request to logger

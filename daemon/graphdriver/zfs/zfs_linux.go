@@ -2,7 +2,7 @@ package zfs // import "github.com/docker/docker/daemon/graphdriver/zfs"
 
 import (
 	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 func checkRootdirFs(rootDir string) error {

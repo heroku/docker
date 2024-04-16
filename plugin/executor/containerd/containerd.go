@@ -15,7 +15,7 @@ import (
 	libcontainerdtypes "github.com/docker/docker/libcontainerd/types"
 	"github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/pkg/errors"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // PluginNamespace is the name used for the plugins namespace

@@ -13,7 +13,7 @@ import (
 	"github.com/Microsoft/hcsshim"
 	"github.com/Microsoft/opengcs/client"
 	"github.com/pkg/errors"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // Code for all the service VM management for the LCOW graphdriver

@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // CORSMiddleware injects CORS headers to each request

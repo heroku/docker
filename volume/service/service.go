@@ -15,7 +15,7 @@ import (
 	"github.com/docker/docker/volume/drivers"
 	"github.com/docker/docker/volume/service/opts"
 	"github.com/pkg/errors"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 type ds interface {

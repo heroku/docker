@@ -28,7 +28,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // PidOf finds process(es) with a specified name (regexp match)

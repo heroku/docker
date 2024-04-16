@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/hashicorp/memberlist"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 type nodeState int

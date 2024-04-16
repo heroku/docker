@@ -8,7 +8,7 @@ import (
 
 	"github.com/docker/libnetwork/types"
 	"github.com/ishidawataru/sctp"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 var (

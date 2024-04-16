@@ -16,7 +16,7 @@ import (
 	swarmallocator "github.com/docker/swarmkit/manager/allocator/cnmallocator"
 	swarmnode "github.com/docker/swarmkit/node"
 	"github.com/pkg/errors"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

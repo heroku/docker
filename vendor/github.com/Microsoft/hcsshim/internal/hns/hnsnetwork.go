@@ -3,7 +3,7 @@ package hns
 import (
 	"encoding/json"
 	"errors"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 	"net"
 )
 

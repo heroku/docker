@@ -5,7 +5,7 @@ package images // import "github.com/docker/docker/daemon/images"
 import (
 	"runtime"
 
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // GetContainerLayerSize returns the real size & virtual size of the container.

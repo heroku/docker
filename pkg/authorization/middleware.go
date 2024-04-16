@@ -6,7 +6,7 @@ import (
 	"sync"
 
 	"github.com/docker/docker/pkg/plugingetter"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // Middleware uses a list of plugins to

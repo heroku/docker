@@ -5,7 +5,7 @@ import (
 
 	"github.com/docker/docker/errdefs"
 	"github.com/pkg/errors"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 	bolt "go.etcd.io/bbolt"
 )
 

@@ -10,7 +10,7 @@ import (
 	"github.com/docker/libnetwork/internal/caller"
 	"github.com/docker/libnetwork/internal/setmatrix"
 	"github.com/docker/libnetwork/osl"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 const ovPeerTable = "overlay_peer_table"

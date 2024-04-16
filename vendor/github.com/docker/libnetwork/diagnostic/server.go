@@ -10,7 +10,7 @@ import (
 
 	stackdump "github.com/docker/docker/pkg/signal"
 	"github.com/docker/libnetwork/internal/caller"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // HTTPHandlerFunc TODO

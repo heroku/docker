@@ -13,7 +13,7 @@ import (
 	"github.com/docker/docker/pkg/plugins"
 	"github.com/docker/docker/volume"
 	"github.com/pkg/errors"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 const extName = "VolumeDriver"

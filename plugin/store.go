@@ -11,7 +11,7 @@ import (
 	"github.com/docker/docker/plugin/v2"
 	"github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/pkg/errors"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 /* allowV1PluginsFallback determines daemon's support for V1 plugins.

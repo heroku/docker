@@ -8,7 +8,7 @@ import (
 	winio "github.com/Microsoft/go-winio"
 	"github.com/containerd/containerd/cio"
 	"github.com/pkg/errors"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 	//	"golang.org/x/net/context"
 )
 

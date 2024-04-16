@@ -15,7 +15,7 @@ import (
 	"github.com/docker/docker/pkg/stringid"
 	volumeopts "github.com/docker/docker/volume/service/opts"
 	"github.com/opencontainers/selinux/go-selinux/label"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // createContainerOSSpecificSettings performs host-OS specific container create functionality

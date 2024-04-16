@@ -35,7 +35,7 @@ import (
 
 	"github.com/containerd/ttrpc"
 	"github.com/pkg/errors"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 
 	"github.com/containerd/containerd/events"
 	"github.com/containerd/containerd/log"

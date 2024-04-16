@@ -9,7 +9,7 @@ import (
 	"github.com/docker/swarmkit/connectionbroker"
 	"github.com/docker/swarmkit/log"
 	"github.com/pkg/errors"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // RenewTLSExponentialBackoff sets the exponential backoff when trying to renew TLS certificates that have expired

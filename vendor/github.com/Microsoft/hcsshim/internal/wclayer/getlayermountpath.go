@@ -4,7 +4,7 @@ import (
 	"syscall"
 
 	"github.com/Microsoft/hcsshim/internal/hcserror"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // GetLayerMountPath will look for a mounted layer with the given path and return

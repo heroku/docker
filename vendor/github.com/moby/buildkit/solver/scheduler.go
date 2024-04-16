@@ -8,7 +8,7 @@ import (
 	"github.com/moby/buildkit/solver/internal/pipe"
 	"github.com/moby/buildkit/util/cond"
 	"github.com/pkg/errors"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 var debugScheduler = false // TODO: replace with logs in build trace

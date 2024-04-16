@@ -1,7 +1,7 @@
 package hns
 
 import (
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 type HNSSupportedFeatures struct {

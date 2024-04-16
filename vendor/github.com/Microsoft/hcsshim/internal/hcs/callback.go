@@ -5,7 +5,7 @@ import (
 	"syscall"
 
 	"github.com/Microsoft/hcsshim/internal/interop"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 var (

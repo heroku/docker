@@ -28,7 +28,7 @@ import (
 	"time"
 
 	"github.com/docker/go-connections/tlsconfig"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // ProtocolSchemeHTTPV1 is the name of the protocol used for interacting with plugins using this package.

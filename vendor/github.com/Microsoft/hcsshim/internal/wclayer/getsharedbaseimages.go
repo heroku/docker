@@ -3,7 +3,7 @@ package wclayer
 import (
 	"github.com/Microsoft/hcsshim/internal/hcserror"
 	"github.com/Microsoft/hcsshim/internal/interop"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // GetSharedBaseImages will enumerate the images stored in the common central

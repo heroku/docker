@@ -4,7 +4,7 @@ import (
 	"sync"
 
 	"github.com/docker/docker/api/types"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // Health holds the current container health-check state

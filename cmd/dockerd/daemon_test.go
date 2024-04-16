@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/docker/docker/daemon/config"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 	"github.com/spf13/pflag"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"

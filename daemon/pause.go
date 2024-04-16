@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/docker/docker/container"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // ContainerPause pauses a container

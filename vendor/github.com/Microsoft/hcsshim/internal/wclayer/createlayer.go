@@ -2,7 +2,7 @@ package wclayer
 
 import (
 	"github.com/Microsoft/hcsshim/internal/hcserror"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // CreateLayer creates a new, empty, read-only layer on the filesystem based on

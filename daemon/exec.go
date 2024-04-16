@@ -19,7 +19,7 @@ import (
 	"github.com/docker/docker/pkg/term"
 	"github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/pkg/errors"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // Seconds to wait after sending TERM before trying KILL

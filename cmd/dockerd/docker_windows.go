@@ -6,7 +6,7 @@ import (
 
 	"github.com/Microsoft/go-winio/pkg/etwlogrus"
 	_ "github.com/docker/docker/autogen/winresources/dockerd"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 func runDaemon(opts *daemonOptions) error {

@@ -3,7 +3,7 @@ package debug // import "github.com/docker/docker/cli/debug"
 import (
 	"os"
 
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // Enable sets the DEBUG env var to true

@@ -7,7 +7,7 @@ import (
 	"github.com/docker/docker/errdefs"
 	"github.com/docker/libnetwork"
 	"github.com/pkg/errors"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // ContainerRename changes the name of a container, using the oldName

@@ -28,7 +28,7 @@ import (
 	gogotypes "github.com/gogo/protobuf/types"
 	"github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 	"golang.org/x/time/rate"
 )
 

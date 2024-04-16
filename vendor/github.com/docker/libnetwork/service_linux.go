@@ -20,7 +20,7 @@ import (
 	"github.com/docker/libnetwork/ns"
 	"github.com/gogo/protobuf/proto"
 	"github.com/ishidawataru/sctp"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 	"github.com/vishvananda/netlink/nl"
 	"github.com/vishvananda/netns"
 )

@@ -19,7 +19,7 @@ import (
 	"github.com/docker/docker/pkg/pubsub"
 	"github.com/fsnotify/fsnotify"
 	"github.com/pkg/errors"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 const tmpLogfileSuffix = ".tmp"

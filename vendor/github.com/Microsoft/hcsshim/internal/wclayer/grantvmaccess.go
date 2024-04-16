@@ -2,7 +2,7 @@ package wclayer
 
 import (
 	"github.com/Microsoft/hcsshim/internal/hcserror"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // GrantVmAccess adds access to a file for a given VM

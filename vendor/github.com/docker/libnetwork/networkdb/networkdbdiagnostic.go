@@ -8,7 +8,7 @@ import (
 
 	"github.com/docker/libnetwork/diagnostic"
 	"github.com/docker/libnetwork/internal/caller"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 const (

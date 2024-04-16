@@ -18,7 +18,7 @@ import (
 	"github.com/containerd/containerd/services/server/config"
 	"github.com/docker/docker/pkg/system"
 	"github.com/pkg/errors"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 const (

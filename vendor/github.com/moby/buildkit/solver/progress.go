@@ -8,7 +8,7 @@ import (
 	"github.com/moby/buildkit/client"
 	"github.com/moby/buildkit/util/progress"
 	digest "github.com/opencontainers/go-digest"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 func (j *Job) Status(ctx context.Context, ch chan *client.SolveStatus) error {

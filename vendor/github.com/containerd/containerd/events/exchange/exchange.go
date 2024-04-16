@@ -31,7 +31,7 @@ import (
 	goevents "github.com/docker/go-events"
 	"github.com/gogo/protobuf/types"
 	"github.com/pkg/errors"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // Exchange broadcasts events

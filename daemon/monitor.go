@@ -12,7 +12,7 @@ import (
 	"github.com/docker/docker/container"
 	libcontainerdtypes "github.com/docker/docker/libcontainerd/types"
 	"github.com/docker/docker/restartmanager"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 func (daemon *Daemon) setStateCounter(c *container.Container) {

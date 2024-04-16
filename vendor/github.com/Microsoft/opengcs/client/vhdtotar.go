@@ -7,7 +7,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // VhdToTar does what is says - it exports a VHD in a specified

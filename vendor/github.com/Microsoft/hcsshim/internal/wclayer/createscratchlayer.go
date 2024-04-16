@@ -2,7 +2,7 @@ package wclayer
 
 import (
 	"github.com/Microsoft/hcsshim/internal/hcserror"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // CreateScratchLayer creates and populates new read-write layer for use by a container.

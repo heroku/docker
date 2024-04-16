@@ -21,7 +21,7 @@ import (
 	"github.com/moby/buildkit/source"
 	"github.com/moby/buildkit/util/progress/logs"
 	"github.com/pkg/errors"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 	bolt "go.etcd.io/bbolt"
 )
 

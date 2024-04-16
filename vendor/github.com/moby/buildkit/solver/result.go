@@ -6,7 +6,7 @@ import (
 	"sync/atomic"
 
 	"github.com/pkg/errors"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // SharedResult is a result that can be cloned

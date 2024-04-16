@@ -9,7 +9,7 @@ import (
 	"github.com/docker/libnetwork/iptables"
 	"github.com/docker/libnetwork/portallocator"
 	"github.com/ishidawataru/sctp"
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 type mapping struct {

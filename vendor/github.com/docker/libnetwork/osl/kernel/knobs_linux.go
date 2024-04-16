@@ -5,7 +5,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // writeSystemProperty writes the value to a path under /proc/sys as determined from the key.

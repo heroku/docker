@@ -53,7 +53,7 @@ import "C"
 import (
 	"unsafe"
 
-	"github.com/sirupsen/logrus"
+	"github.com/Sirupsen/logrus"
 )
 
 // dm_task_deferred_remove is not supported by all distributions, due to
